@@ -1,10 +1,16 @@
 ##The dataset includes the following files:
 'features_info.txt': Shows information about the variables used on the feature vector.
+
 'features.txt': List of all features.
+
 'activity_labels.txt': Links the class labels with their activity name.
+
 'train/X_train.txt': Training set.
+
 'train/y_train.txt': Training labels.
+
 'test/X_test.txt': Test set.
+
 'test/y_test.txt': Test labels.
 
 ##Feature
@@ -59,6 +65,9 @@ tBodyGyroJerkMean
 
 ##Steps - clean up the data 
 1 Read the data set in to R and add the colname, lables to the data set at the same time
+
 2 Merge test and train data set 
+
 3 Extracts only the measurements on the mean and standard deviation for each measurement
+
 4 creates a second, independent tidy data set with the average of each variable for each activity and each subject
